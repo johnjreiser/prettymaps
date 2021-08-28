@@ -1,0 +1,6 @@
+version: '3'
+services:
+  mapgen:
+    build: .
+    volumes:
+      - ./output:/prettymaps/output/
